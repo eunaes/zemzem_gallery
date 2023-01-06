@@ -82,6 +82,7 @@ $(function () {
         },
         pagination: {
             el: ".swiper-pagination",
+            clickable: true,
         },
         loop: true,
     });
@@ -146,6 +147,7 @@ $(function () {
         pagination: {
             el: ".swiper-pagination",
             dynamicBullets: true,
+            clickable: true,
         },
         autoplay: {
             delay: 2500,
@@ -158,6 +160,7 @@ $(function () {
     var swiper = new Swiper(".sub_banner", {
         pagination: {
             el: ".swiper-pagination",
+            clickable: true,
         },
         autoplay: {
             delay: 2500,
